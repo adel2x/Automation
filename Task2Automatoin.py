@@ -6,8 +6,8 @@ from datetime import datetime
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Replace with your bot token and chat ID
-bot_token = "8154599120:AAHum7_ru_osMX4082iOv2bNk1T2KI-5R-s"
-chat_id = "813385620"
+bot_token = "tokenID"
+chat_id = "chatID"
 
 def get_index_size(elasticUrl, indexName):
     headers = {
